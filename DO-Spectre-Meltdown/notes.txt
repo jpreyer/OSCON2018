@@ -1,0 +1,23 @@
+* Went the kernel upgrade path with Retpoline (google product)
+* Had to reboot all servers with custom kernel
+* Little to no performnce impact
+* Holding off on microcode uptil it's a little more stable
+* Where to begin in patching?
+  * DCO on site when rebooting!
+  * Make sure capacity in DC where they are networking
+  * 12 data centers to do this over (10K servers)
+* Tooling
+  * Ansible used to do this
+  * Software verification of proper patching
+* Operational SWAT teams working in shifts to patch everything
+* NYC1 was the first data center to be completed (Feb 11)
+* 64 days in, 33% complete, move to EU to patching
+* 67 days in, 43% complete, pause because support queue ticket volume (10 day pause)
+* Changed to reboot only during EST working hours.
+* 4/13, 97% of fleet rebooted.
+* 4/16, 100% done!!!!  Took 15 additional days to get back to normal support queue levels.
+* What did they learn?
+  * Better prepared.
+  * 100% focus from company
+  * Better tooling for maintenances going forward
+  * Increased communication channels.

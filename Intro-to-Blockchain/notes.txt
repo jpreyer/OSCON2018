@@ -1,0 +1,31 @@
+* What is Blockchain?
+  * Hash function
+    * Takes input
+    * Outputs a fixed sized string
+    * output is unique to input
+    * Idempotent
+    * Infeasible to invert (cannot reverse engineer!)
+
+* Public Key (asymmetric) Encryption
+    * 2 keys: public and private
+
+* Block attributes
+    * Cryptographic hash of the previous block
+    * creation date timestamp
+    * Data (each block stores the owner's public key)
+
+* What is the block"chain"
+  * A data structure
+  * Glorified linked list with only append function
+  * Decentralized / Distributed / Public
+
+* Adding a block
+  * Submit transaction
+  * generate the Block
+  * network determines if the block is part of the authoritative Blockchain
+
+* Consensus
+  * 2 users can have different correct copies of data
+  * Reconciled by having a higher value chain (consensus algorithm)
+  * Blockchains must be Byzantine Fault Tolerant
+  * typically based on higher proof of work or proof of stake
