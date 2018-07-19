@@ -1,0 +1,15 @@
+* Yelp tried many tools to automate/script AWS operations
+* Settled on Terraform
+* Why not CloudFormation is you're with AWS?
+  * Vendor lockin!!!!
+* Terraform also configured
+  * NS1
+  * Fastly
+  * Cloudflare
+  * signalfx
+  * Yelp used all of these as well
+* Projects for differnt Terraform projects are split up by directory
+  * project / region is a pattern they use.
+* also seperated DNS terraform out, was taking too long to do it!
+* Used Zoopkeeper to keep their statefile in as a locking mechanism
+* Decided to wrap all Terraform ops into a Makefile
