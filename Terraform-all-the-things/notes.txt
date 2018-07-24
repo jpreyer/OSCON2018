@@ -13,3 +13,4 @@
 * also seperated DNS terraform out, was taking too long to do it!
 * Used Zoopkeeper to keep their statefile in as a locking mechanism
 * Decided to wrap all Terraform ops into a Makefile
+* currently using Python to generate Terraform code!
